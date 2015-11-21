@@ -7,9 +7,15 @@
       </a>
     </h2>
   </header>
+
+  {{#if image}}"
+    <img src="{{image}}" alt="">
+  {{/if}}
+
   <section itemprop="description" class="post-item-excerpt">
     <p>{{excerpt words="35"}}&hellip;</p>
   </section>
+
   <footer class="post-item-footer">
     <ul class="post-item-meta-list">
       <li class="post-item-meta-item post-item-meta-item-date-published">
